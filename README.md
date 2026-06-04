@@ -16,3 +16,4 @@ The original experiment used packages such as RoboBrowser, BeautifulSoup, GeoTex
 - Twitter/X APIs and web markup have changed since this was written.
 - Authentication placeholders are intentionally blank in the script.
 - Treat this as an archived research prototype unless the API layer and dependency versions are refreshed.
+- Do not commit API keys or generated notebook checkpoints; configure credentials locally when modernizing the Tweepy layer.
