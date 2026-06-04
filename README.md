@@ -11,6 +11,18 @@ Exploratory script/notebook for inferring a Twitter user's location from profile
 
 The original experiment used packages such as RoboBrowser, BeautifulSoup, GeoText, geopy, Tweepy, pandas, matplotlib, and pathos.
 
+## Reproducible offline demo
+
+Run a deterministic locality-normalization smoke demo without Twitter/X access:
+
+```sh
+python3 scripts/offline_demo.py
+```
+
+The script normalizes fixed sample profile locations, prints the inferred city
+counts, and writes `outputs/offline_demo_summary.md`. It does not exercise the
+credentialed live scraper/API path.
+
 ## Caveats
 
 - Twitter/X APIs and web markup have changed since this was written.

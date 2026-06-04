@@ -1,0 +1,3 @@
+# The offline demo uses only the Python standard library.
+# The archived live prototype may require robobrowser, beautifulsoup4, geotext,
+# geopy, tweepy, pandas, matplotlib, pathos, requests, and jupyter.
